@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@bitbucket.org/" />
+  <remote name="origin" fetch="ssh://git@github.com/developerinlondon/" />
   <default revision="master" remote="origin" />
-  <project name="sdsgmbh/ansible-group-vars" path="group_vars" revision="refs/tags/v0.1" groups="base"/>
-  <project name="sdsgmbh/ansible-inventories" path="inventories" revision="refs/tags/v0.1" groups="base"/>
-  <project name="sdsgmbh/ansible-roles" path="roles" revision="refs/tags/v0.1" groups="base"/>
+  <project name="ansible-group-vars" path="group_vars" revision="refs/tags/v0.1" groups="base"/>
+  <project name="ansible-inventories" path="inventories" revision="refs/tags/v0.1" groups="base"/>
+  <project name="ansible-roles" path="roles" revision="refs/tags/v0.1" groups="base"/>
 </manifest>
